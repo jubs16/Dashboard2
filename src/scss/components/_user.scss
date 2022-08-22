@@ -1,0 +1,79 @@
+.user {
+    margin-top: 60px;
+    margin-left: 0;
+    left: 9rem;
+   // width:90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    .lineBreak{
+      height: 40px;
+      flex-basis: 100%;
+    }
+    .userContainer{
+      flex: 3;
+      flex-wrap: wrap;
+      padding: 10px;
+      bottom: 30px;
+      margin-right: 20px;
+      justify-content: space-between;
+      gap: 20px;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(204, 204, 204, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(204, 204, 204, 0.47);
+      border-radius: 10px;
+      height: auto;
+      .card-user{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5px;
+        border-radius: 10px;
+      //  border-color: #fff;
+        .empId{
+          color: rgb(175, 175, 175);
+          margin-top: 12%;
+          margin-left: 25px;
+          font-size: 9px;
+        }
+      }
+      .name{
+        color: grey;
+      }
+      .title{
+        color: rgb(210, 210, 210);
+            font-size: 12px;
+            font-weight: 500;
+      }
+      .tableTitle{
+        margin-top: 20px;
+        margin-left: 20px;
+        color: rgb(210, 210, 210);
+            font-size: 15px;
+            font-weight: 500;
+      }      
+      .address{
+        color: rgb(190, 190, 190);
+            font-size: 11px;
+            font-style: italic;
+      }
+      .pic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .social{
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        .icon{ 
+          color: grey;
+        }
+      }
+      .btn{
+        margin-top: 35px;
+        margin-right: 10px;
+        padding: 5px 15px 5px 15px;
+      }
+    }
+  }

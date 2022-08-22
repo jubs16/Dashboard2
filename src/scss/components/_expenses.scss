@@ -1,0 +1,17 @@
+
+.expenses{
+    @extend .App;
+    @extend .collapse;
+    position:absolute;
+    left: 50px;
+   
+
+   
+     
+        .heading{
+    
+            font-size: 4rem;
+            border: solid 1px blueviolet;
+        }
+    
+  }

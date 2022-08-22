@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import "./components/sidebar";
+@import "./components/navbar";
+@import "./components/home";
+@import "./components/widget";
+@import "./components/activityLog"; 
+@import "./components/wallet";
+@import "./components/expenses";
+@import "./components/transactions";
+@import "./components/dashboard";
+@import "./components/scroll";
+@import "./components/mediaQueries";
+@import "./components/charts";
+@import "./components/feature";
+@import "./components/table";
+@import "./components/users";
+@import "./components/user";
+
+.App {
+  top:0;
+  width: 100vw;
+ // height: 100vh;
+  display: flex;
+}
+.lightTheme {
+    width: 100vw;
+  //  height: 100vh;
+  //  background-color: bisque;
+  } 
+  .darkTheme {
+    width: 100vw;
+    //height: 100vh;
+  //  background-color: rgb(179, 174, 174);
+   // font-weight: bold;
+   background-color: black;
+   color: $gray-300;
+  }

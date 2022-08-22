@@ -1,0 +1,20 @@
+.table{
+    padding: 20px;
+    color: grey;
+    .icon{
+        padding: 5px;
+        border-radius: 5px;
+         &.APPROVED{
+            color: green;
+        }
+        &.FAILED{
+            color: red;
+        } 
+        &.REFUND{
+            color: blue;
+        }
+        &.PENDING{
+            color: goldenrod;
+        }        
+    }   
+}

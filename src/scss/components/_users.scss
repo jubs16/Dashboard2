@@ -1,0 +1,65 @@
+.users {
+    margin-top: 60px;
+    margin-left: 10px;
+    left: 9rem;
+    width:90%;
+    height: auto;
+    flex: 6;
+    position: absolute;
+    .widgets{
+      display: flex;
+      flex: 4;
+    }
+  
+    .title {
+      color: grey;
+      font-size: 16px;
+      font-weight: 600;
+    }
+.input {
+  border-color: rgb(224, 224, 224);
+  width: 15rem;
+}
+.table {
+  width: 98%;
+  .userEdit{
+    display: flex;
+    gap: 5px;
+  }
+}
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid  #6439ff;
+  color:  #6439ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #6439ff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color:  #6439ff;
+}
+
+.paginationDisabled a{
+  color: rgb(184, 184, 184);
+  border-color: rgb(184, 184, 184);
+  background-color: rgb(241, 240, 240);
+  cursor: not-allowed;
+}
+  }
+  

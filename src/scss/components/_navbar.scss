@@ -1,0 +1,90 @@
+.navBar{
+   // background-color: lavender;
+    width: 100vw;
+    max-height: 40px;
+    border-bottom: 0.2px solid rgba(216, 215, 215, 0.6);
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .items{
+            display: flex;
+            .item{
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                position: relative;
+                .icon{
+                    font-size: 15px;
+                    cursor: default;
+                }
+                .avatar{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    position: relative;
+                }
+                .badge{
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    padding: 5px;
+                    color: white;
+                    background-color: red;
+                    font-size: 9px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+            .dropdown {
+                position: absolute;
+                margin-top: 1px;
+                margin-left: 1px;
+                .btn-secondary{
+                    opacity: 0;
+                    width: 20px;
+                    height: 20px;
+                    border: 0px;                 
+                }
+            }
+        }      
+        .input-group{
+          //  margin-top: 25px;
+            width: 14rem;
+            .form-control{
+                background-color: transparent;
+                border: 0.5px solid lightgray;
+                border-radius: 50px; 
+            }
+            .form-control:focus{
+                    box-shadow: none;
+                    border: 0.5px solid lightgray;
+            }
+            .input-group-text{
+                background-color: transparent;
+                border: 0.5px solid lightgray;
+                color: lightgray;
+                cursor: pointer;
+            }
+            ::placeholder{
+                color: lightgray;
+            }
+            #search-addon{
+                border-top-right-radius: 50px; 
+                border-bottom-right-radius: 50px;
+            }
+        }
+    }
+}
