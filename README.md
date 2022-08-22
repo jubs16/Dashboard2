@@ -1,6 +1,6 @@
 # Live Demo 👉
 
-This project is live at [here](https://jubs16.github.io/Dashboard2) 👉
+This project is live over 👉 [here](https://jubs16.github.io/Dashboard2) 
 
 # Getting Started with Create React App
 
